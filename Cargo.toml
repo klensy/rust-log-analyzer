@@ -35,3 +35,6 @@ clap = { version = "4.1.8", features = ["derive"] }
 tokio = { version = "1.26.0", features = ["rt-multi-thread", "rt", "signal", "macros"] }
 aws-sdk-s3 = "0.30.0"
 aws-config = "0.56.0"
+
+[dev-dependencies]
+pretty_assertions = "1.0"
